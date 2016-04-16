@@ -8,7 +8,7 @@ import com.google.gson.reflect.TypeToken;
 import com.historyBuyRecord.GetHistoryBuyRecord;
 import com.userBuyList.GetUserBuyList;
 import com.userBuyList.UserBuyDataType;
-import com.util.HttpGetUtil;
+import com.util.HttpGetUtil; 
 
 public class Main {
 	public static void main(String[] args) {
@@ -22,6 +22,7 @@ public class Main {
 		// GetHistoryBuyRecord.GetBuyGoodsCode("2015-12-28 19:07:25.951");
 		 TestUrl();
 //		count();
+//		 ddd
 		System.out.println("执行耗时 : " + (System.currentTimeMillis() - beginTime) / 1000f + " 秒 ");
 	}
 
